@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <title>Become a Volunteer</title>
+  <link rel="icon" href="images/favicon.ico">
+  <meta name="description"
+    content="Health Service Nepal (HSN) is a non-profit, non- governmental organization established and registered under organization registration act 2034 at District administration office, Lalitpur, Nepal and affiliated to Social Welfare Council">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:100,400,900|Ubuntu:400,700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/styles.css">
+  <script src="https://kit.fontawesome.com/038c09f485.js"></script>
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
+  </script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous">
+  </script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
+  </script>
+</head>
+
+<body>
+  <section class="colored-section" id="title">
+    <div class="container-fluid">
+      <!-- Nav Bar -->
+      <nav class="navbar navbar-expand-lg navbar-dark" style="padding-bottom: 0px;">
+        <a class="navbar-brand" href="/">
+          <img class="hsn-logo" src="images/hsn-logo.jpeg" width="75" height="75" class="d-inline-block align-top" alt="">
+          HSN
+          <h5 class="clinic-name-extended" style="padding-left: 25%;">
+            Health Service Nepal
+          </h5>
+        </a>
+      </nav>
+  </section>
+
+  <section class="" id="scheduler-form">
+    <br>
+    <div class="feature-box-member col-lg-6">
+      <form action="/become-a-member" method="POST">
+        <fieldset>
+          <legend>Enter Details Here</legend>
+          <div class="form-group">
+            <div class="input-group">
+              <div class="input-group-prepend">
+                <span class="input-group-text">First Name</span>
+              </div>
+              <input type="text" name="fName" class="form-control" aria-label="Default" aria-describedby="inputGroup-sizing-default" required>
+            </div>
+          </div>
+          <div class="form-group">
+            <div class="input-group">
+              <div class="input-group-prepend">
+                <span class="input-group-text">Last Name</span>
+              </div>
+              <input type="text" name="lName" class="form-control" aria-label="Default" aria-describedby="inputGroup-sizing-default" required>
+            </div>
+          </div>
+          <div class="form-group">
+            <div class="input-group">
+              <div class="form-check form-check-inline">
+                <input class="form-check-input" type="radio" name="gender" value="Male" id="inlineRadio1" required>
+                <label class="form-check-label" for="inlineRadio1">Male</label>
+              </div>
+              <div class="form-check form-check-inline">
+                <input class="form-check-input" type="radio" name="gender" value="Female" id="inlineRadio2">
+                <label class="form-check-label" for="inlineRadio2">Female</label>
+              </div>
+              <div class="form-check form-check-inline">
+                <input class="form-check-input" type="radio" name="gender" value="Non-binary" id="inlineRadio3">
+                <label class="form-check-label" for="inlineRadio3">Non-Binary</label>
+              </div>
+            </div>
+          </div>
+          <div class="form-group">
+            <div class="input-group age">
+              <div class="input-group-prepend">
+                <span class="input-group-text">Age</span>
+              </div>
+              <input type="text" name="age" class="form-control" aria-label="Default" aria-describedby="inputGroup-sizing-default" required>
+            </div>
+          </div>
+          <div class="form-group">
+            <input type="email" name="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email" required>
+            <small id="emailHelp" class="form-text text-muted">Sample Input: emailaddress@domainame.com</small>
+          </div>
+          <div class="form-group">
+            <input type="tel" name="telephone" class="form-control" id="exampleInputPhone1" aria-describedby="phoneHelp" placeholder="Enter phone number" required>
+            <small id="phoneHelp" class="form-text text-muted">Sample Input: +9779XXXXXXXXX</small>
+          </div>
+          <button type="submit" class="btn btn-primary signup-btn">Sign Up</button>
+        </fieldset>
+      </form>
+    </div>
+    <br>
+  </section>
+  <section class="colored-section" id="cta">
+    <div class="container-fluid">
+      <h2>Health Service Nepal</h2>
+      <p class="desc">TOGETHER TOWARDS A HEALTHIER COMMUNITY</p>
+      <hr size="3">
+      <div class="row">
+        <div class="connect-box col-lg-4">
+          <h4><strong>Our Activities</strong></h4>
+          <p>Free Medicines Distributions</p>
+          <p>Medical Camp and Health Awareness Program</p>
+          <p>Blood Donation Program</p>
+          <p>Research and Publications</p>
+        </div>
+        <div class="connect-box col-lg-4">
+          <h4><strong>Contact</strong></h4>
+          <i class="far fa-envelope fa-2x"></i>
+          <a href="mailto:healthservicenepal9@gmail.com"><span style="color:white">healthservicenepal9@gmail.com</a>
+          <br>
+          <br>
+          <i class="fas fa-phone-square-alt fa-2x phone"></i>(+977)9851242741
+          <br>
+          <br>
+          <i class="fas fa-phone-square-alt fa-2x phone"></i>1660-01-42741 (Toll Free)
+          <br><br>
+          <a href="https://www.instagram.com/healthservicenepal/?r=nametag" target="_blank"><i class="fab fa-instagram fa-2x instagram"></i></a>
+          <a href="https://www.facebook.com/HSNNGO/" target="_blank"><i class="fab fa-facebook fa-2x facebook"></i></a>
+          <br><br>
+        </div>
+        <div class="address-box col-lg-4">
+          <h4><strong>Locate Us</strong></h4>
+          <i class="fas fa-search-location fa-2x"></i>
+          <br>
+          <div class="address-details">
+            Mahalakshi Municipality -05
+            <br>
+            Tikathali, Lalitpur - 44705
+            <br>
+            Nepal
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+</body>
+
+</html>

@@ -1,0 +1,378 @@
+body {
+  font-family: "Ubuntu";
+  text-align: center;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Ubuntu";
+  font-weight: 900;
+}
+
+p {
+  color: #8f8f8f;
+}
+
+/* Heading */
+.big-heading {
+  font-family: "Ubuntu";
+  font-weight: 900;
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+
+.section-heading {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+#gallery {
+  padding: 3% 1%;
+}
+
+/* Containers */
+.container-fluid {
+  padding: 7% 15%;
+}
+
+/* Sections */
+.colored-section {
+  background-color: #385399;
+  color: #fff;
+}
+
+.white-section {
+  background-color: #fff;
+}
+
+.navbar {
+  padding: 0 0 4.5rem;
+}
+
+.navbar-brand {
+  font-family: "Ubuntu";
+  font-size: 2.5rem;
+  font-weight: bold;
+  position: relative;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-family: "Montserrat";
+}
+
+.downloadbutton {
+  margin: 5% 3% 5% 0;
+}
+
+/* Title Section */
+#title .container-fluid {
+  padding: 3% 15% 7%;
+  text-align: left;
+}
+
+#press .container-fluid {
+  padding-top: 3%;
+}
+
+#features {
+  position: relative;
+}
+
+.feature-title {
+  font-size: 1.5rem;
+}
+
+.feature-box {
+  padding: 5%;
+}
+
+.icon {
+  color: #ED1B24;
+  margin-bottom: 1rem;
+}
+
+.icon:hover {
+  color: #385399;
+}
+
+#testimonials {
+  background-color: #385399;
+  padding-top: 3%;
+}
+
+#testimonials h5 {
+  font-size: 1.5rem;
+}
+
+.testimonial-image {
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+.testimonial-text {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+#press {
+  background-color: #385399;
+  padding-bottom: 3%;
+}
+
+.press-logo {
+  width: 15%;
+  margin: 20px 20px;
+}
+
+.carousel-indicators li {
+  border-radius: 100%;
+  width: 10px;
+  height: 10px;
+}
+
+#pricing {
+  padding: 100px;
+}
+
+.pricing-column {
+  padding: 3% 2%;
+}
+
+.price-text {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.social-icon {
+  margin: 20px 10px;
+}
+
+.hsn-logo {
+  border-radius: 50%;
+}
+
+#title {
+  text-align: center;
+}
+
+.titleimage {
+  position: static;
+  transform: rotate(0);
+}
+
+.carousel-text-style {
+  padding-top: 1%;
+}
+
+.avatar {
+  vertical-align: middle;
+  border-radius: 50%;
+}
+
+#cta p {
+  color: #fff;
+}
+
+#title p {
+  color: #fff;
+}
+
+hr {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid #fff;
+  margin: 1em 0;
+  padding: 0;
+}
+
+.card hr {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid black;
+  margin: 1em 0;
+  padding: 0;
+}
+
+.address-box {
+  text-align: left;
+}
+
+.connect-box {
+  text-align: justify;
+}
+
+#myBtn {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  z-index: 99;
+  border: none;
+  outline: none;
+  background-color: #000000;
+  color: white;
+  cursor: pointer;
+  border-radius: 50%;
+}
+
+#myBtn:hover {
+  background-color: #555;
+}
+
+.clinic-name-extended {
+  position: absolute;
+  left: 26.5%;
+  top: 63%;
+}
+
+/*  */
+* {
+  box-sizing: border-box;
+}
+
+.ImgThumbnail {
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  padding-top: 100px;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgb(0, 0, 0);
+  background-color: rgba(0, 0, 0, 0.9);
+}
+
+.modalImage {
+  margin: auto;
+  display: block;
+  width: 50%;
+  height: 60%;
+  max-width: 700px;
+}
+
+#caption {
+  margin: auto;
+  display: block;
+  width: 80%;
+  max-width: 700px;
+  text-align: center;
+  color: #ccc;
+  padding: 10px 0;
+  height: 150px;
+}
+
+.close {
+  position: absolute;
+  top: 15px;
+  right: 35px;
+  color: #f1f1f1;
+  font-size: 40px;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.close:hover,
+.close:focus {
+  color: rgb(255, 0, 0);
+  cursor: pointer;
+}
+
+@media only screen and (max-width: 700px) {
+  .modalImage {
+    width: 100%;
+  }
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial;
+}
+
+/* The grid: Four equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 25%;
+  padding: 10px;
+}
+
+/* Style the images inside the grid */
+.column img {
+  opacity: 0.8;
+  cursor: pointer;
+}
+
+.column img:hover {
+  opacity: 1;
+}
+
+.acc-details p {
+  text-align: left;
+}
+
+.signup-btn {
+  background-color: #ED1B24;
+}
+
+.feature-box-member {
+  padding: 5%;
+  margin: auto;
+  border: 3px solid #ED1B24;
+}
+
+@media only screen and (max-width: 900px) {
+  .hide-column {
+    display: none;
+  }
+}
+
+.instagram {
+  color: white;
+  padding-right: 15%;
+}
+
+.instagram:hover {
+  color: #fe2d5e;
+}
+
+.facebook {
+  color: white;
+}
+
+.facebook:hover {
+  color: #4267B2;
+}
+
+#newsandupdate{
+background-color: #ED1B24;
+}
+/* 
+#press {
+  background-color: #ef8172;
+  padding-bottom: 3%
+} */
+
+li{
+	color:black;
